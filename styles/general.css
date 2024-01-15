@@ -18,3 +18,18 @@ main{
     line-height: 1.80555555vw;
 }
 
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+    .primary-text{
+
+        color: #5A5A5D;
+        font-size: 3.733333333vw;
+        line-height: 6.4vw;
+    }
+
+}
