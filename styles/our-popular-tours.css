@@ -1,0 +1,36 @@
+.our-popular-tours{
+    display: flex;
+    justify-content: space-between;
+}
+.our-popular-tours > .our-popular-tours-texts{
+    width: 40.06944444vw;
+}
+.our-popular-tours > .our-popular-tours-texts > h1{
+    color: #131318;
+    font-size: 2.777777vw;
+    font-weight: 800;
+}
+.our-popular-tours > .our-popular-tours-texts > .primary-text{
+    margin-top: 1.6666666vw;
+}
+.our-popular-tours > .our-popular-tours-texts > button{
+    font-weight: 700;
+    padding: 0vw;
+    background-color: #FF5400;
+    color: #FFF;
+    border: none;
+    font-size: 1.388888888vw;
+    padding: 1vw 2.4305555555vw;
+    border-radius: 0.4vw;
+    margin-top: 2.2222222vw;
+}
+.our-popular-tours > .our-popular-tours-texts > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1111111111111vw;
+    width: 85%;
+}
+
+.our-popular-tours > img{
+    width: 35vw;
+}
