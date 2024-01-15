@@ -84,7 +84,7 @@ nav > .menu-button{
     background-color: rgba(255, 255, 255, 0.30);
     display: flex;
     justify-content: space-between;
-    padding: 1.111111vw;
+    padding: 1rem;
     border-radius: 0.5vw;
 }
 
@@ -95,9 +95,9 @@ nav > .menu-button{
     border: none;
     border-radius: 0.4vw;
     color: rgba(19, 19, 24, 0.50);
-    font-size: 1.2vw;
+    font-size: 1.11111111111vw;
     font-weight: 400;
-    padding-left: 1.3vw;
+    padding-left: 1rem;
 }
 .banner > .banner-travel-search > select{
     appearance: none;
@@ -114,10 +114,10 @@ nav > .menu-button{
     align-items: center;
     justify-content: center;
     padding: 0vw;
-    gap: 0.4vw;
+    gap: 8px;
 }
 .banner > .banner-travel-search > .button > img{
-    width: 1.66666vw;
+    width: 22px;
 }
 
 
@@ -133,7 +133,12 @@ nav > .menu-button{
 @media screen and (max-width: 600px){
 
     header{
-        padding: 4.8vw 5.3333vw 0vw;
+        padding: 4.8vw 5.3333vw 10vw;
+        min-height: 100svh;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 6vw;
     }
     nav > .logo-container > h1{
         font-size: 5.7448vw;
@@ -149,5 +154,36 @@ nav > .menu-button{
     }
     nav > ul{
         display: none;
+    }
+
+    .banner{
+        flex-grow: 1;
+        border-radius: 5vw;
+        justify-content: flex-start;
+        padding: 6.62525879% 0px;
+    }
+    .banner > .banner-title{
+        font-size: 5.866666vw;
+        margin-top: 7.5vw;
+    }
+    .banner > .banner-text{
+        font-size: 3.73333333vw;
+        line-height: 5.6vw;
+        width: 90.7462686%;
+        margin: 2.6666vw 0vw 7.5vw;
+    }
+    .banner > .banner-travel-search{
+        flex-direction: column;
+        flex-grow: 1;
+        border-radius: 4vw;
+        justify-content: space-around;
+        align-items: center;
+        width: fit-content;
+    }
+    .banner > .banner-travel-search > .travel-search{
+        width: 68vw;
+        height: 18%;
+        border-radius: 2vw;
+        font-size: 4.266666666vw;
     }
 }
