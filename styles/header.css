@@ -12,7 +12,7 @@ nav > .logo-container{
     display: flex;
     align-items: center;
 }
-nav > .logo-container > img{
+nav > .logo-container > .logo{
     width: 3.333vw;
     height: 100%;
 }
@@ -43,10 +43,82 @@ nav .nav-home{
     color: #FF5400;
 }
 
-nav > img{
+nav > .menu-button{
     display: none;
 }
 
+
+
+.banner{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../resources/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 34.72222vw;
+    margin-top: 3.33333vw;
+    border-radius: 1.25vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner > .banner-title{
+    color: #FFF;
+    font-size: 4.44444vw;
+    font-weight: 800;
+}
+.banner > .banner-text{
+    color: #FFF;
+    font-size: 1.111111vw;
+    font-weight: 400;
+    line-height: 1.8055555vw;
+    width: 56%;
+    margin: 1.5vw 0vw 3vw;
+}
+.banner > .banner-travel-search{
+    width: 65.641%;
+    height: 3.6111vw;
+    background-color: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.111111vw;
+    border-radius: 0.5vw;
+}
+
+.banner > .banner-travel-search > .travel-search{
+    width: 22.65625%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0.4vw;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding-left: 1.3vw;
+}
+.banner > .banner-travel-search > select{
+    appearance: none;
+    background-image: url('../resources/Images/icons/down-arrow-icon.png');
+    background-repeat: no-repeat;
+    background-position: 90% center;
+}
+
+.banner > .banner-travel-search > .button{
+    background-color: #FF5400;
+    color: #FFF;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0vw;
+    gap: 0.4vw;
+}
+.banner > .banner-travel-search > .button > img{
+    width: 1.66666vw;
+}
 
 
 
@@ -66,10 +138,10 @@ nav > img{
     nav > .logo-container > h1{
         font-size: 5.7448vw;
     }
-    nav > .logo-container > img{
+    nav > .logo-container > .logo{
         width: 7.6597333vw;
     }
-    nav > img{
+    nav > .menu-button{
         display: block;
         width: 6.4vw;
         height: 6.4vw;

@@ -16,7 +16,7 @@
     <header>
         <nav>
             <div class="logo-container">
-                <img src="resources/Images/Logo.png" alt="logo">
+                <img src="resources/Images/Logo.png" alt="logo" class="logo">
                 <h1><span class="orange">Hero</span> Travel</h1>
             </div>
             <ul>
@@ -26,8 +26,30 @@
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
-            <img src="resources/Images/icons/menu-icon.png" alt="Menu Button">
+            <img src="resources/Images/icons/menu-icon.png" alt="Menu Button" class="menu-button">
         </nav>
+
+        <section class="banner">
+            <h1 class="banner-title">Explore Your Travel</h1>
+            <p class="banner-text">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+
+            <form class="banner-travel-search">
+
+                <input type="text" name="" class="travel-search" placeholder="Where go">
+
+                <select name="when" class="travel-search">
+                    <option value="" disabled selected hidden>When</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                </select>
+
+                <select name="select-type" class="travel-search">
+                    <option value="" disabled selected hidden>Select Type</option>
+                </select>
+
+                <button class="travel-search button"><img src="resources/Images/icons/search-icon.png">Find Now</button>
+
+            </form>
+        </section>
     </header>
 </body>
 </html>
