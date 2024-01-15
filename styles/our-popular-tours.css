@@ -5,11 +5,7 @@
 .our-popular-tours > .our-popular-tours-texts{
     width: 40.06944444vw;
 }
-.our-popular-tours > .our-popular-tours-texts > h1{
-    color: #131318;
-    font-size: 2.777777vw;
-    font-weight: 800;
-}
+
 .our-popular-tours > .our-popular-tours-texts > .primary-text{
     margin-top: 1.6666666vw;
 }
@@ -50,9 +46,7 @@
     .our-popular-tours > .our-popular-tours-texts{
         width: 100%;
     }
-    .our-popular-tours > .our-popular-tours-texts > h1{
-        font-size: 5.333333333vw;
-    }
+    
     .our-popular-tours > .our-popular-tours-texts > .primary-text{
         margin-top: 4.266666666vw;
     }
