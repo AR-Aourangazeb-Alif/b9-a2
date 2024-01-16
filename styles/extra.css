@@ -16,7 +16,7 @@
     align-items: center;
 }
 .item{
-    height: fit-content;
+    height: 28vw;
     background-color: aqua;
     flex: 1;
     border-radius: 1vw;
@@ -61,6 +61,7 @@
     .item{
         width: 100%;
         padding: 6vw;
+        height: fit-content;
     }
     .item > p{
         width: 100%;
