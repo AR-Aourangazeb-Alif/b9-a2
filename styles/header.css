@@ -22,9 +22,6 @@ nav > .logo-container > h1{
     font-weight: 800;
     margin-left: 1vw;
 }
-nav > .logo-container > h1 >.orange{
-    color: #FF5400;
-}
 
 nav > ul{
     display: flex;

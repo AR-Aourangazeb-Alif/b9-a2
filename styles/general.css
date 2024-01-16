@@ -11,6 +11,10 @@ main{
     padding: 6vw 9.375vw 0vw;
 }
 
+.orange{
+    color: #FF5400;
+}
+
 .primary-text{
     color: rgba(19, 19, 24, 0.70);
     font-size: 1.11111111vw;
