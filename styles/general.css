@@ -40,6 +40,11 @@ main{
     font-weight: 800;
 }
 
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgba(19, 19, 24, 0.10);
+}
 
 
 
