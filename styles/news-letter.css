@@ -1,0 +1,135 @@
+.newsletter{
+    height: 29.3055555555555vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6.9444444444vw;
+}
+
+.newsletter-form{
+    height: 99.99%;
+    width: 40.512820%;
+    border-radius: 1vw;
+    border: 1px solid #FF5400;
+    padding: 2.77777777777777vw;
+    box-sizing: border-box;
+}
+.newsletter-form > p{
+    margin: 1.1111111111vw 0vw 1.6666666666vw;
+}
+.newsletter-form > hr{
+    margin-bottom: 1.6666666666vw;
+}
+
+.newsletter-form > form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.111111111vw;
+}
+.newsletter-form > form > input{
+    border-radius: 0.4vw;
+    border: none;
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 1.1111111111vw 1.38888888888888vw;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1.11111111111vw;
+    font-weight: 400;
+}
+.newsletter-form > form > button{
+    height: 3.6111111111111vw;
+    border-radius: 0.4vw;
+    border: none;
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 1.3888888888vw;
+    font-weight: 800;
+    margin-top: 0.55555555vw;
+}
+.newsletter-image{
+    height: 100%;
+    width: 57.435897%;
+    background: url('../resources/Images/Rectangle\ 8\ \(1\).png'), lightgray 50% / cover no-repeat;
+    background-position: center bottom;
+    border-radius: 1vw;
+    position: relative;
+}
+.newsletter-image > .offer-sticker{
+    width: 48.21428%;
+    height: 28.436018957%;
+    background-color: #FF5400;
+    border-radius: 1vw;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-19.628deg);
+    bottom: 11.5%;
+    right: 1.5%;
+}
+.newsletter-image > .offer-sticker > p{
+    color: #FFF;
+    font-size: 1.66666666666vw;
+    font-weight: 400;
+}
+.newsletter-image > .offer-sticker > h1{
+    color: #FFF;
+    font-size: 2.222222222222vw;
+    font-weight: 800;
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    .newsletter{
+        flex-direction: column;
+        height: fit-content;
+        gap: 4.266666666vw;
+    }
+    .newsletter-form{
+        width: 100%;
+        height: fit-content;
+        padding: 6.4vw;
+        border-radius: 4.266666666vw;
+    }
+    .newsletter-form > form{
+        gap: 4.2666666666vw;
+    }
+    .newsletter-form > form > input{
+        height: 13.866666666666vw;
+        border-radius: 2.1333333333vw;
+        font-size: 4.2666666666666vw;
+    }
+    .newsletter-form > form > button{
+        height: 13.866666666666vw;
+        margin-top: 1.0666666666vw;
+        border-radius: 2.13333333333vw;
+        font-size: 5.3333333333333vw;
+    }
+    .newsletter-form > p{
+        margin: 2.1333333333vw 0vw 4.2666666666vw;
+    }
+    .newsletter-form > hr{
+        margin-bottom: 4.2666666666vw;
+    }
+
+    .newsletter-image{
+        height: 80vw;
+        width: 100%;
+        border-radius: 4.266666666vw;
+    }
+    .newsletter-image > .offer-sticker{
+        width: 63.8874626%;
+        height: 26.4226666666%;
+        border-radius: 3vw;
+    }
+    .newsletter-image > .offer-sticker > p{
+        font-size: 4.2277333333vw;
+    }
+    .newsletter-image > .offer-sticker > h1{
+        font-size: 5.6368vw;
+    }
+    
+}
