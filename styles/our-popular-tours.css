@@ -6,7 +6,7 @@
     width: 40.06944444vw;
 }
 
-.our-popular-tours > .our-popular-tours-texts > .primary-text{
+.our-popular-tours > .our-popular-tours-texts > .primary-text, .secondary-text{
     margin-top: 1.6666666vw;
 }
 .our-popular-tours > .our-popular-tours-texts > button{

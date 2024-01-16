@@ -91,8 +91,8 @@ nav > .menu-button{
 .banner > .banner-travel-search > .travel-search{
     width: 22.65625%;
     height: 100%;
-    box-sizing: border-box;
     border: none;
+    box-sizing: border-box;
     border-radius: 0.4vw;
     color: rgba(19, 19, 24, 0.50);
     font-size: 1.11111111111vw;

@@ -1,0 +1,88 @@
+.why-choose-us{
+    margin-top: 6.94444444vw;
+}
+
+.why-choose-us-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.66666666vw;
+    margin-bottom: 3.333333333vw;
+}
+.why-choose-us-text-container > .primary-text{
+    width: 55%;
+}
+
+.why-choose-us-1{
+    display: flex;
+    justify-content: space-between;
+}
+.why-choose-us-1 > div, .why-choose-us-2 > .best-price-guarantee{
+    width: calc((100% - 1.66666666vw) / 2);
+    background-color: aqua;
+    padding: 2.222222222vw 3.81944444444vw 2.222222222vw 2.222222222vw;
+    box-sizing: border-box;
+    border-radius: 1vw;
+}
+.why-choose-us-1 > div > img, .why-choose-us-2 > .best-price-guarantee > img{
+    width: 4.44444444vw;
+}
+
+.why-choose-us-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6666666666vw;
+}
+
+.why-choose-us-1 > .handpicked-hotels{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+}
+.why-choose-us-1 > .world-class-service{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.why-choose-us-2 > .best-price-guarantee{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.why-choose-us-1 > div > .secondary-title, .why-choose-us-2 > .best-price-guarantee > .secondary-title{
+    margin: 2vw 0vw 1.111111111111vw;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .why-choose-us-1{
+        flex-direction: column;
+        gap: 4.26666666vw;
+    }
+    .why-choose-us-2{
+        margin-top: 4.26666666vw;
+    }
+    .why-choose-us-1 > div, .why-choose-us-2 > .best-price-guarantee{
+        width: 100%;
+        padding: 8.533333333333vw;
+    }
+    .why-choose-us-1 > div > img, .why-choose-us-2 > .best-price-guarantee > img{
+        width: 12.8vw;
+    }
+    .why-choose-us-1 > div > .secondary-title, .why-choose-us-2 > .best-price-guarantee > .secondary-title{
+        margin: 4.2666666vw 0vw;
+    }
+    .why-choose-us-text-container > .primary-text{
+        width: 100%;
+    }
+    .why-choose-us-text-container{
+        gap: 4.26666666vw;
+        margin-bottom: 4.26666666vw;
+    }
+
+}
